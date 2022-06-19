@@ -12,6 +12,26 @@ The "st" terminal
 
 DMenu application launcher
 
+INSTALLATION
+============
+$ git clone https://github.com/armin-at-terminal/dwm.git
+$ cd dwm
+# sudo make clean install
+
+HOW TO START DWM
+================
+If you have a display manager (GDM, LightDM, SDDM), then just select dwm in the desktop select drop down menu.
+If you instead are using startx, put the following into the .xinitrc file:
+
+exec dwm
+
+EXTRA FEATURES
+==============
+- gaps around windows
+- dwindle and spiral layouts (incompatible with gaps)
+- ability to resize floating windows from all corners
+- ~/.dwm/autostart.sh will be executed every time dwm starts
+
 KEYBOARD SHORTCUTS
 ==================
 Modkey = super/windows key
