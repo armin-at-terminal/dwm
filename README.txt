@@ -2,15 +2,15 @@ README
 
 DWM - THE DYNAMIC WINDOW MANAGER
 ================================
-Dwm is a fast and minimal window manager for X.
+dwm is a fast and minimal window manager for X.
 
 REQUIREMENTS
 ============
 A "C" language compiler (gcc)
 
-The "st" terminal
+the "st" terminal
 
-DMenu application launcher
+dmenu application launcher
 
 INSTALLATION
 ============
